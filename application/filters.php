@@ -44,7 +44,14 @@ return array(
 
 	'before' => function()
 	{
-		// Do stuff before every request to your application.
+		if ($user = Auth::user())
+		{
+			User::$timestamps = false;
+			$user->seen_at = date('Y-m-d H:i:s');
+			$user->save();
+
+			User::$timestamps = true;
+		}
 	},
 
 
@@ -56,13 +63,32 @@ return array(
 
 	'auth' => function()
 	{
-		if (Auth::guest()) return Redirect::to_login();
+		if (Auth::guest()) return Response::error(403);
 	},
 
+	'role' => function($role)
+	{
+		if (Auth::guest()) return Response::error(403);
+
+		if ($role === 'admin')
+		{
+			if ( ! Auth::user()->admin)
+			{
+				return Response::error(403);
+			}
+		}
+		else
+		{
+			throw new UnexpectedValueException("Unknown role \"$role\"");
+		}
+	},
 
 	'csrf' => function()
 	{
-		if (Request::forged()) return Response::error('500');
+		if (Request::forged())
+		{
+			throw new RuntimeException('Request forged');
+		}
 	},
 
 );

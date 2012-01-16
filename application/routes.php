@@ -34,9 +34,69 @@ return array(
 	|
 	*/
 
+	// Auth related routes
+	'GET /login' => array('name' => 'login', function()
+	{
+		if (!Auth::check())
+		{
+			// The /login page itself is not Forbidden (403) and should be served
+			// with status 200, so we make a view of the form rather than serve a
+			// Response::error.  The only difference is the status code.
+			return View::make('error.403');
+		}
+		else
+		{
+			return Redirect::to('')
+				->with('message', '<strong>Log in:</strong> You are already logged in.');
+		}
+	}),
+	'POST /login' => array('before' => 'csrf', function()
+	{
+		if (Auth::attempt(Input::get('email'), Input::get('password')))
+		{
+			$to = Input::has('from') ? URL::to(Input::get('from')) : URL::to('');
+			return Redirect::to($to)->with('success', '<strong>Log in:</strong> Welcome to Womble!');
+		}
+		else
+		{
+			Session::flash('error', 'E-mail or password wrong, please try again.');
+			return Response::error(403);
+		}
+	}),
+	'GET /logout' => array('name' => 'logout', function()
+	{
+		Auth::logout();
+		return Redirect::to('')->with('success', '<strong>Log out:</strong> Goodbye, we\'ll miss you!');
+	}),
+
+	// These routes are needed to bypass the next 'catch-all' route
+	'GET /booking' => 'booking@index',
+	'GET /booking/new' => 'booking@new',
+	'GET /booking/(:any)' => 'booking@index',
+	'PUT /booking/(:any)' => 'booking@index',
+
 	'GET /' => function()
 	{
-		return View::make('home.index');
+		return View::make('master')
+			->nest('content', 'index');
+	},
+
+	// Catch all route
+	'GET /(:any), GET /activities/(:any)' => function($path = 'index')
+	{
+		$path = ltrim(Laravel\Request::uri(), '/') ?: 'index';
+		$page = Page::find($path);
+
+		if ($page !== false)
+		{
+			return View::make('master', array(
+				'content' => $page->toHTML()
+			));
+		}
+		else
+		{
+			return Laravel\Response::error(404);
+		}
 	},
 
 );

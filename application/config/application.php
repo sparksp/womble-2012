@@ -125,7 +125,7 @@ return array(
 		'DB'         => 'Laravel\\Database\\Manager',
 		'Eloquent'   => 'Laravel\\Database\\Eloquent\\Model',
 		'File'       => 'Laravel\\File',
-		'Form'       => 'Laravel\\Form',
+		'Form'       => 'Twitter\\Bootstrap\\Form',
 		'Hash'       => 'Laravel\\Hash',
 		'HTML'       => 'Laravel\\HTML',
 		'Inflector'  => 'Laravel\\Inflector',
