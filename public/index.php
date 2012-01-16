@@ -13,6 +13,10 @@
 // --------------------------------------------------------------
 define('LARAVEL_START', microtime(true));
 
+//
+date_default_timezone_set('Europe/London');
+setlocale(LC_ALL, 'en_GB.UTF-8', 'en_GB', 'en');
+
 // --------------------------------------------------------------
 // The path to the application directory.
 // --------------------------------------------------------------
