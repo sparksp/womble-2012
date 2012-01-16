@@ -7,7 +7,7 @@ Steve Pope
 :   Activities Advisor & head of accounts
 
 Robin
-:   Caving Advisor and the fool whos heading up Womble
+:   Caving Advisor and the fool who's heading up Womble
 
 Terry
 :   Mountain Advisor
@@ -31,7 +31,7 @@ Phill
 :   Web monkey, Facebook poster and tweeter
 
 Fi
-:   Admin Rottweiler
+:   Admin Dragon
 
 Andy
 :   Entertainer

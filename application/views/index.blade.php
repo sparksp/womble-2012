@@ -1,6 +1,6 @@
 <h1><?php echo HTML::image('img/Womble.png', 'Womble'); ?></h1>
 
-<p><strong>Womble</strong> will take part over the weekend of the 29<sup>th</sup> June – 1<sup>st</sup> July 2012 at Littledale Camp Site, near Lancaster.</p>
+<p><strong>Womble</strong> will take place over the weekend of the 29<sup>th</sup> June – 1<sup>st</sup> July 2012 at Littledale Camp Site, near Lancaster.</p>
 
 <p>During the event you’ll be able to take part in activities aimed to push you – don’t expect simple climbing, walking and riding.  By Sunday evening you’ll be sleeping on the way home and aching on Monday!</p>
 
@@ -36,11 +36,11 @@
 	<li><?php echo HTML::link('activities/walking', 'Walking'); ?></li>
 </ul>
 
-<p>We are hoping also be joined by the local mountain rescue teams who will be on hand to talk you through some of their kit and equipment.</p>
+<p>We are also hoping to be joined by the local mountain rescue teams who will be on hand to talk you through some of their kit and equipment.</p>
 
 <h2>Saturday night's entertainment</h2>
 
-<p>After a eating way to much at the BBQ there will be an opportunity to take part in a series of competitions; big money prizes are available – thanks to our secret sponsor.  Prepare yourself for karaoke, arm wrestling, table traversing, the tape game and other fun little things.</p>
+<p>After eating way too much at the BBQ there will be an opportunity to take part in a series of competitions. Big money prizes are available – thanks to our secret sponsor.  Prepare yourself for karaoke, arm wrestling, table traversing, the tape game and other fun little things.</p>
 
 <h2>You need to bring with you</h2>
 
@@ -51,7 +51,7 @@
 	<li>Something to drink out of</li>
 	<li>Something to sleep in</li>
 	<li>Something to sit on</li>
-	<li>Clothes for your activity</li>
+	<li>Clothes for your activities</li>
 </ul>
 
 <h2>How do I get a place?</h2>
@@ -62,29 +62,29 @@
 
 <p>No one leaves until it’s tidy.  Your camping area must be kept clean and rubbish free at all times.  We are not paid to run this event.</p>
 
-<p>You are responsible for bringing the correct kit, so check you list.  If it says to bring it then it must be packed.  If you loose your hat/coat/waterproofs do not expect us to have a spare,  or indeed care that you have lost it in the first place.</p>
+<p>You are responsible for bringing the correct kit, so check you list.  If it says to bring it then it must be packed.  If you lose your hat/coat/waterproofs do not expect us to have a spare,  or indeed care that you have lost it in the first place.</p>
 
-<p>Once you have chosen your activity you can not change it, if you didn’t want to do it in the first place then you shouldn’t have chosen it.</p>
+<p>Once you have chosen your activity you cannot change it, if you didn’t want to do it in the first place then you shouldn’t have chosen it.</p>
 
 <p>If you misbehave the organisers will send you home.  We’ve got better things to worry about and we will not refund any of your money.</p>
 
 <p>Mini buses will leave on time; if you are late getting there then you should have got up earlier.</p>
 
-<p>Some of the site is out of bounds – i.e.  the river; if you go in or play on the shoreline then you will be sent home.  There are also some big cliffs on there that will hurt if you fall off them – again stop away.</p>
+<p>Some of the site is out of bounds – i.e.  the river; if you go in or play on the shoreline then you will be sent home.  There are also some big cliffs that will hurt if you fall off them – again, stay away.</p>
 
-<p>If you are invited into the bunkrooms then take your shoes off.  Anyone caught in shoes inside will be made to sweep the room out.</p>
+<p>If you are invited into the bunkrooms then take your shoes off.  Anyone caught wearing shoes inside will be made to sweep the room out.</p>
 
-<p>Network members may leave the site outside of their activities.  Please tell us where you are going, while we’re not your keepers if may be that we need some more milk.</p>
+<p>Network members may leave the site outside of their activities.  Please tell us where you are going; while we’re not your keepers it may be that we need some more milk.</p>
 
 <p>Explorers may not leave the site unless authorised by the organisers.</p>
 
 <p>Boyzone, JLS and Westlife songs are banned from the karaoke.</p>
 
-<p>Background music is okay;  playing your music above conservation level is not acceptable.</p>
+<p>Background music is okay;  playing your music above conversation level is not acceptable.</p>
 
 <p>Any surplus from the event will be retained by County and used to pay for future events;  hopefully <strong>Womble</strong> will run again next year!</p>
 
-<p>Help the instructors and staff.  They’ve properly got something better to do than peel spuds, wash up and shout at you all weekend.  Respect them and each other and the event will work easier.</p>
+<p>Help the instructors and staff.  They’ve probably got something better to do than peel spuds, wash up and shout at you all weekend.  Respect them and each other and the event will work more smoothly.</p>
 
 </div>
 <aside class="span3 links">

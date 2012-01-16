@@ -43,8 +43,8 @@
 
 	{{$errors->first('attendee', '<p class="error-text">:message</p>')}}
 
-	<p class="help-text">Please include in the special requirements any medical conditions that may effect you during
-		the event, any food allergies, or dietary requirements.</p>
+	<p class="help-text">Please include in the special requirements any medical conditions that may affect you during
+		the event, any food allergies or dietary requirements.</p>
 
 	<table class="attendees">
 		<thead><tr>
