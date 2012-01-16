@@ -1,0 +1,22 @@
+# Womble
+
+title: Womble
+destination: api
+source: ./
+skipDocPrefix:
+	- Laravel
+exclude:
+	- */helpers.php
+	- */storage/*
+php: no
+
+internal: yes
+accessLevels:
+	- public
+	- protected
+	- private
+
+todo: yes
+deprecated: yes
+
+report: api/report.xml
