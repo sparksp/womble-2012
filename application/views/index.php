@@ -94,5 +94,15 @@
 	<div class="facebook fb-like-box"><fb:like-box href="http://www.facebook.com/pages/Womble/172719149494955" colorscheme="light" width="200" height="80" header="false" show_faces="false" stream="false" /></div>
 
 	<div class="twitter"><a target="_blank" href="http://twitter.com/intent/user?screen_name=ScoutWomble" class="image"><img alt="" src="https://twimg0-a.akamaihd.net/profile_images/1752070602/W-white_normal.png"></a><h3><a target="_blank" href="http://twitter.com/intent/user?screen_name=ScoutWomble">@ScoutWomble <small>on Twitter</small></a></h3></div>
+
+	<h2>Designed for&hellip;</h2>
+
+	<p class="explorer"><a href="http://www.leicestershirescouts.org.uk/events/explorers/"><img src="<?php echo URL::to_asset('img/explorer.png'); ?>" alt="Explorer Scouts" width="200" height="100" /></a></p>
+
+	<p class="network"><img src="<?php echo URL::to_asset('img/network.png'); ?>" alt="Network Scouts" width="200" height="41" /></p>
+
+	<h2>Other Events</h2>
+
+	<p class="high-adventure"><a href="http://www.high-adventure.org.uk/"><img src="<?php echo URL::to_asset('img/high-adventure.png'); ?>" alt="High Adventure" width="200" height="200" /></a></p>
 </aside>
 </div>
