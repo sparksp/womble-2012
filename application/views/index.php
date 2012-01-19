@@ -1,4 +1,13 @@
-<h1><?php echo HTML::image('img/Womble.png', 'Womble'); ?></h1>
+<h1><?php echo HTML::image('img/Womble.png', 'Womble', array('usemap' => '#logomap')); ?></h1>
+
+<map name="logomap" id="logomap">
+	<area shape="rect" coords="782,0,938,158" href="<?php echo URL::to('activities/walking'); ?>" alt="Walking" />
+	<area shape="rect" coords="626,0,782,158" href="<?php echo URL::to('activities/biking'); ?>" alt="Mountain Biking" />
+	<area shape="rect" coords="470,0,626,158" href="<?php echo URL::to('activities/climbing'); ?>" alt="Climbing" />
+	<area shape="rect" coords="314,0,470,158" href="<?php echo URL::to('activities/caving'); ?>" alt="Caving" />
+	<area shape="rect" coords="158,0,314,158" href="<?php echo URL::to('activities/canoeing'); ?>" alt="Canoeing" />
+	<area shape="rect" coords="2,0,158,158" href="#saturday-night" alt="Camping" />
+</map>
 
 <p><strong>Womble</strong> will take place over the weekend of the 29<sup>th</sup> June – 1<sup>st</sup> July 2012 at Littledale Camp Site, near Lancaster.</p>
 
@@ -38,7 +47,7 @@
 
 <p>We are also hoping to be joined by the local mountain rescue teams who will be on hand to talk you through some of their kit and equipment.</p>
 
-<h2>Saturday night's entertainment</h2>
+<h2 id="saturday-night">Saturday night's entertainment</h2>
 
 <p>After eating way too much at the BBQ there will be an opportunity to take part in a series of competitions. Big money prizes are available – thanks to our secret sponsor.  Prepare yourself for karaoke, arm wrestling, table traversing, the tape game and other fun little things.</p>
 
