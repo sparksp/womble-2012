@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
 	<title><?php echo $title ? "$title - Womble" : 'Womble'; ?></title>
 
 	<meta name="author" content="Phill Sparks">
-	<meta name="copyright" content="Copyright (c) Leicestershire County Scout Council. All rights reserved.">
-	<meta name="generator" content="Laravel/2.0.4 (laravel.com)">
+	<meta name="dcterms.rights" content="Copyright (c) Leicestershire County Scout Council. All rights reserved.">
+	<meta name="generator" content="Laravel/2.1.0 (laravel.com)">
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 
 	<link href="<?php echo URL::to_asset('favicon.ico'); ?>" type="image/x-icon" rel="shortcut icon">
