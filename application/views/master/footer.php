@@ -6,7 +6,7 @@
 			<p class="pull-right"><?php echo HTML::link('cookies', 'Read about how we use cookies'); ?>.</p>
 <?php endif; ?>
 			<p>
-				&copy; Leicestershire Scout Council.
+				&copy; <a href="http://www.leicestershirescouts.org.uk">Leicestershire Scout Council</a>.
 
 				Made by <a href="http://phills.me.uk">Phill Sparks</a>.
 				Powered by <a href="http://laravel.com">Laravel</a>.
