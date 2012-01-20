@@ -5,10 +5,15 @@ Cookies are small text files that are placed on your computer by websites that y
 
 Most web browsers allow some control of most cookies through the browser settings. To find out more about cookies, including how to see what cookies have been set and how to manage and delete them, visit [www.allaboutcookies.org](http://www.allaboutcookies.org).
 
-Laravel Session
----------------
+Session
+-------
 
 The session cookie is a reference to you for the duration of your visit on the site.  It enables us to secure our forms by checking that no one else is pretending to be you.  It is also an important part of our user log in code.  The cookie only lasts as long as your visit.
+
+Remember
+--------
+
+When you login and tick "Use a cookie to remember my details" we set a cookie to remember who you are.  This cookie will last for 1 year from when it is first set.  The cookie will be deleted if you manually log out from Womble.  If you delete the cookie yourself you will need to log in manually on your next visit.
 
 Google Analytics
 ----------------

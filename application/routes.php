@@ -52,7 +52,7 @@ return array(
 	}),
 	'POST /login' => array('before' => 'csrf', function()
 	{
-		if (Auth::attempt(Input::get('email'), Input::get('password')))
+		if (Auth::attempt(Input::get('email'), Input::get('password'), Input::get('remember', 'no') == 'yes'))
 		{
 			$to = Input::has('from') ? URL::to(Input::get('from')) : URL::to('');
 			return Redirect::to($to)->with('success', '<strong>Log in:</strong> Welcome to Womble!');
