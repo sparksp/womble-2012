@@ -65,7 +65,7 @@
 
 <h2>How do I get a place?</h2>
 
-<p>You need to pay a £5 non-refundable deposit by 31<sup>st</sup> January 2012 and then the remaining £30 by 1<sup>st</sup> June.  Cheques payable to "Leicestershire Scout Council".  By the 31<sup>st</sup> January you need to choose what you want to do as we’ll be booking the instructors early.  So complete the booking form and press <?php echo HTML::link('booking/new', 'Book Now') ?>, you’ll then be contacted with how much you owe us.</p>
+<p>You need to pay a £5 non-refundable deposit by 31<sup>st</sup> March 2012 and then the remaining £30 by 1<sup>st</sup> June.  Cheques payable to "Leicestershire Scout Council".  By the 31<sup>st</sup> March you need to choose what you want to do as we’ll be booking the instructors early.  So complete the booking form and press <?php echo HTML::link('booking/new', 'Book Now') ?>, you’ll then be contacted with how much you owe us.</p>
 
 <h2>The small print <small>and a few life lessons</small></h2>
 

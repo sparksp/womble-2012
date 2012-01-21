@@ -1,6 +1,6 @@
 <h1>Thank-you!</h1>
 
-<p>Thank-you for your booking.  You have registered <?php echo count($group->attendees); ?> attendees to attend Womble 2012.  <strong>You need to pay a £5 non-refundable deposit per person by 29th February 2012.</strong>  The remaining £30 per person is due by 1st June 2012.  Please make cheques payable to "Leicestershire Scout Council" and write "Womble #<?php echo $group->id; ?>" on the reverse.  Send your cheques to:</p>
+<p>Thank-you for your booking.  You have registered <?php echo count($group->attendees); ?> attendees to attend Womble 2012.  <strong>You need to pay a £5 non-refundable deposit per person by 31st March 2012.</strong>  The remaining £30 per person is due by 1st June 2012.  Please make cheques payable to "Leicestershire Scout Council" and write "Womble #<?php echo $group->id; ?>" on the reverse.  Send your cheques to:</p>
 
 <p><address>
     Womble, County Scout Centre,<br />
