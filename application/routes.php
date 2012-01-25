@@ -82,7 +82,7 @@ return array(
 	},
 
 	// Catch all route
-	'GET /(:any), GET /activities/(:any)' => function($path = 'index')
+	'GET /(:any), GET /activities/(:any), GET /press/(:any)' => function($path = 'index')
 	{
 		$path = ltrim(Laravel\Request::uri(), '/') ?: 'index';
 		$page = Page::find($path);
