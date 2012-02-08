@@ -26,11 +26,11 @@ Activities
 
 Choose between:
 
-* [Canoeing](/activities/canoeing)
-* [Caving](/activities/caving)
-* [Climbing](/activities/climbing)
-* [Mountain Biking](/activities/biking)
-* [Walking](/activities/walking)
+* [Canoeing](/activities/canoeing) (12 places)
+* [Caving](/activities/caving) (15 places)
+* [Climbing](/activities/climbing) (12 places)
+* [Mountain Biking](/activities/biking) (6 places)
+* [Walking](/activities/walking) (12 places)
 
 We are also hoping to be joined by the local mountain rescue teams who will be on hand to talk you through some of their kit and equipment.
 

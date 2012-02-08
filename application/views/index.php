@@ -38,11 +38,11 @@
 <p>Choose between:</p>
 
 <ul>
-	<li><?php echo HTML::link('activities/canoeing', 'Canoeing'); ?></li>
-	<li><?php echo HTML::link('activities/caving', 'Caving'); ?></li>
-	<li><?php echo HTML::link('activities/climbing', 'Climbing'); ?></li>
-	<li><?php echo HTML::link('activities/biking', 'Mountain Biking'); ?></li>
-	<li><?php echo HTML::link('activities/walking', 'Walking'); ?></li>
+	<li><?php echo HTML::link('activities/canoeing', 'Canoeing'); ?> (12 places)</li>
+	<li><?php echo HTML::link('activities/caving', 'Caving'); ?> (15 places)</li>
+	<li><?php echo HTML::link('activities/climbing', 'Climbing'); ?> (12 places)</li>
+	<li><?php echo HTML::link('activities/biking', 'Mountain Biking'); ?> (6 places)</li>
+	<li><?php echo HTML::link('activities/walking', 'Walking'); ?> (12 places)</li>
 </ul>
 
 <p>We are also hoping to be joined by the local mountain rescue teams who will be on hand to talk you through some of their kit and equipment.</p>
