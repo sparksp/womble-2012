@@ -1,0 +1,146 @@
+/*!
+ * Design for phills.me.uk
+ * 
+ * @author Phill Sparks <me@phills.me.uk>
+ * @version 1.1
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Chicle);
+@import "variables.less";
+@import "bootstrap.less";
+
+body {
+    background: transparent url(../img/wallpaper.jpg) center top repeat;
+    padding-top: 50px;
+}
+
+/* Layout */
+#body, footer {
+    background-color: rgb(255, 255, 255);
+}
+#body, footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+footer p {
+	margin: 0;
+    display: inline;
+
+	&.pull-right {
+	    margin-left: 17px;
+	}
+}
+footer span {
+    white-space: nowrap;
+}
+
+/* Headings */
+h1, h2, dt, .brand {
+    font-family: 'Chicle', cursive;
+}
+h1, h2, dt {
+    font-weight: 400;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 400%;
+}
+h2 {
+    font-size: 250%;
+}
+dt {
+    font-size: 150%;
+}
+
+
+/* Forms */
+.form-actions {
+    background-color: rgb(200, 200, 200);
+}
+.form-actions {
+    background-color: rgba(200, 200, 200, .3);
+}
+table.attendees select {
+    width: auto;
+}
+table.attendees th[scope=row] {
+    vertical-align: middle;
+}
+form.booking .form-actions {
+    padding-left: 38px;
+}
+.special {
+    width: 290px;
+}
+.control-group.error select {
+    color: #B94A48;
+    border-color: #EE5F5B;
+}
+.error-text {
+    color: #B94A48;
+}
+
+
+/* 1st picture on activity pages */
+h1 + p > img {
+    float: right;
+    margin: 0 0 1em 1em;
+    max-width: 40%;
+}
+
+
+/* Twitter */
+aside .twitter {
+    overflow: auto;
+    a.image {
+        float: left;
+        margin: 0 5px;
+    }
+    h3 {
+        margin: 0;
+        font-size: 100%;
+        line-height: 1.5;
+    }
+    small {
+        display: block;
+        font-weight: normal;
+    }
+}
+
+
+/* Reactive Additions */
+@media (max-width: 980px) {
+    body {
+        padding-top: 0;
+    }
+    .navbar .brand {
+        float: none;
+        display: block;
+    }
+    #body, footer {
+        border-radius: 0;
+    }
+    #bottom {
+        margin-bottom: 0;
+        padding: 10px; // Always want 10px
+
+        .pull-right {
+            float: none;
+            margin-left: 0;
+        }
+    }
+}
+@media (min-width: 980px) {
+    .navbar .nav {
+        float: none;
+    }
+    .navbar .nav .last {
+        float: right;
+    }
+}
+

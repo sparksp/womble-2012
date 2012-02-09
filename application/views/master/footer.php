@@ -1,18 +1,18 @@
 		</section>
-
-		<footer class="footer" id="bottom">
-			<p class="pull-right"><a href="#">Back to top</a></p>
-<?php if (count($_COOKIE)): ?>
-			<p class="pull-right"><?php echo HTML::link('cookies', 'Read about how we use cookies'); ?>.</p>
-<?php endif; ?>
-			<p>
-				&copy; <a href="http://www.leicestershirescouts.org.uk">Leicestershire Scout Council</a>.
-
-				Made by <a href="http://phills.me.uk">Phill Sparks</a>.
-				Powered by <a href="http://laravel.com">Laravel</a>.
-			</p>
-		</footer>
 	</div>
+
+	<footer class="footer container" id="bottom">
+		<p>
+			<span>&copy; <a href="http://www.leicestershirescouts.org.uk">Leicestershire Scout Council</a>.</span>
+
+			<span>Made by <a href="http://phills.me.uk">Phill Sparks</a>.</span>
+			<span>Powered by <a href="http://laravel.com">Laravel</a>.</span>
+		</p>
+		<p class="pull-right"><a href="#">Back to top</a>.</p>
+<?php if (count($_COOKIE)): ?>
+		<p class="pull-right"><?php echo HTML::link('cookies', 'Read about how we use cookies'); ?>.</p>
+<?php endif; ?>
+	</footer>
 
 	<?php echo Asset::container('footer')->scripts(); ?>
 

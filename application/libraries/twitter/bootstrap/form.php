@@ -13,22 +13,22 @@ class Form extends \Laravel\Form {
 	/**
 	 * Stacked, left-aligned labels over controls
 	 */
-	const TYPE_VERTICAL   = 'vertical-form';
+	const TYPE_VERTICAL   = 'form-vertical'; // not required
 
 	/**
 	 * Float left, right-aligned labels on same line as controls
 	 */
-	const TYPE_HORIZONTAL = 'horizontal-form';
+	const TYPE_HORIZONTAL = 'form-horizontal';
 
 	/**
 	 * Left-aligned label and inline-block controls for compact style
 	 */
-	const TYPE_INLINE     = 'inline-form';
+	const TYPE_INLINE     = 'form-inline';
 
 	/**
 	 * Extra-rounded text input for a typical search aesthetic
 	 */
-	const TYPE_SEARCH     = 'search-form';
+	const TYPE_SEARCH     = 'form-search';
 
 	/**
 	 * Create a HTML form field.
@@ -171,7 +171,7 @@ class Form extends \Laravel\Form {
 	public static function submit($value, $attributes = array())
 	{
 		$attributes['type'] = 'submit';
-		$attributes['class'] .= ' btn';
+		$attributes['class'] .= ' btn btn-primary';
 
 		return static::button($value, $attributes);
 	}

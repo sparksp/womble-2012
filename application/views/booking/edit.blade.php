@@ -1,25 +1,3 @@
-@section('styles')
-	table.attendees select {
-		width: auto;
-	}
-	table.attendees th[scope=row] {
-		vertical-align: middle;
-	}
-	form.booking .form-actions {
-		padding-left: 38px;
-	}
-	.special {
-		width: 290px;
-	}
-	.control-group.error select {
-		color: #B94A48;
-		border-color: #EE5F5B;
-	}
-	.error-text {
-		color: #B94A48;
-	}
-@endsection
-
 <article>
 	<h1>Book Now!</h1>
 
@@ -46,7 +24,7 @@
 	<p class="help-text">Please include in the special requirements any medical conditions that may affect you during
 		the event, any food allergies or dietary requirements.</p>
 
-	<table class="attendees">
+	<table class="table attendees">
 		<thead><tr>
 			<th><!-- ID --></th>
 			<th>Name *</th>
@@ -56,7 +34,6 @@
 		</tr></thead>
 		<tbody>
 	@for ($i = 0; $i < 12; $i++)
-	{{$errors->first("attendee.$i", '<tr><td rowspan="5">:message</td></tr>')}}
 			<tr>
 				<th scope="row">{{$i+1}}
 @if ($attendees[$i]->id)
@@ -68,6 +45,7 @@
 				<td class="control-group{{$errors->has("attendee.$i.sunday")?' error':''}}">{{Form::select("attendee[$i][sunday]", $activities, Input::get("attendee.$i.sunday", $attendees[$i]->sunday))}}</td>
 				<td class="control-group{{$errors->has("attendee.$i.extra")?' error':''}}">{{Form::text("attendee[$i][extra]", Input::get("attendee.$i.extra", $attendees[$i]->extra), array('class' => 'special'))}}</td>
 			</tr>
+		{{$errors->first("attendee.$i", '<tr><td></td><td colspan="4">:message</td></tr>');}}
 	@endfor
 		</tbody>
 	</table>
