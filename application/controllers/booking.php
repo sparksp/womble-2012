@@ -114,6 +114,7 @@ class Booking_Controller extends Controller
 							$errors->messages["$prefix$key"] = $msgs;
 							unset($aterrors->messages[$key]); // gc
 						}
+						$errors->messages["attendee"][0] = 'There are errors below, please check your input and try again.';
 					}
 					elseif ($attendee->save()) // the attendee is fine!
 					{
