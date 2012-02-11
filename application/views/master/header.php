@@ -42,14 +42,14 @@
 		<section>
 
 		<?php if (Session::has('message')): ?>
-			<div class="alert-message info"><?php echo Session::get('message'); ?></div>
+			<div class="alert alert-info"><?php echo Session::get('message'); ?></div>
 		<?php endif; ?>
 		<?php if (Session::has('success')): ?>
-			<div class="alert-message success"><?php echo Session::get('success'); ?></div>
+			<div class="alert alert-success"><?php echo Session::get('success'); ?></div>
 		<?php endif; ?>
 		<?php if (Session::has('warning')): ?>
-			<div class="alert-message warning"><?php echo Session::get('warning'); ?></div>
+			<div class="alert alert-warning"><?php echo Session::get('warning'); ?></div>
 		<?php endif; ?>
 		<?php if (Session::has('error')): ?>
-			<div class="alert-message error"><?php echo Session::get('error'); ?></div>
+			<div class="alert alert-error"><?php echo Session::get('error'); ?></div>
 		<?php endif; ?>
