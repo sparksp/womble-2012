@@ -30,7 +30,7 @@
 			->add("/activities/climbing", "Climbing")
 			->add("/activities/biking", "Mountain Biking")
 			->add("/activities/walking", "Walking")
-			->add("/booking/new", "Book Now")
+			->add("/booking/new", "Book Now", array('class' => 'book-now'))
 			->add("/staff", "Who's Who") // pull-right
 			->get();
 		?></nav>

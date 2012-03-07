@@ -620,6 +620,7 @@ h1,h2,dt{font-weight:400;line-height:1.5;}
 h1{font-size:400%;}
 h2{font-size:250%;}
 dt{font-size:150%;}
+.navbar .nav>li>a.book-now{font-weight:bold;color:white;}
 .form-actions{background-color:#c8c8c8;}
 .form-actions{background-color:rgba(200, 200, 200, 0.3);}
 table.attendees select{width:auto;}
