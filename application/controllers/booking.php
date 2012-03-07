@@ -171,7 +171,7 @@ class Booking_Controller extends Controller
 		if (is_null($id))
 		{
 			// What do we want to do here, list user's groups, redirect to user's first group?
-			return Response::error(404);
+			return Redirect::to('booking/new');
 		}
 		else if ($id == Session::get('group_id'))
 		{
