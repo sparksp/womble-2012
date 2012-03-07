@@ -9,7 +9,7 @@
 <h1>User Admin</h1>
 
 @if (count($content->results))
-<table>
+<table class="table">
 	<thead><tr>
 		<th>User</th>
 		<th>Last seen</th>

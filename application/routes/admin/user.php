@@ -36,7 +36,7 @@ return array(
 		if ($user)
 		{
 			return View::make('master')
-				->with('title', 'Edit - '. $user->name)
+				->with('title', 'Edit: '. $user->name)
 				->nest('content', 'admin.user.edit', array('user' => $user));
 		}
 		else
@@ -55,7 +55,7 @@ return array(
 			if (count($errors->all()) > 0)
 			{
 				return View::make('master')
-					->with('title', 'Edit - '. $user->name)
+					->with('title', 'Edit: '. $user->name)
 					->nest('content', 'admin.user.edit', array('user' => $user, 'errors' => $errors));
 			}
 			else
@@ -79,7 +79,7 @@ return array(
 			if ($user->id !== Auth::user()->id)
 			{
 				return View::make('master')
-					->with('title', 'Disable - '.$user->name)
+					->with('title', 'Disable: '.$user->name)
 					->nest('content', 'admin.user.disable', array('user' => $user));
 			}
 			else
@@ -115,5 +115,6 @@ return array(
 	}),
 
 	// @todo change/set password method
+	// @todo create user method
 
 );
