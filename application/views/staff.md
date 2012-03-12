@@ -33,8 +33,5 @@ Phill
 Fi
 :   Admin Dragon
 
-Andy
-:   Entertainer
-
 Laura
 :   ACC Explorers and bride to be.
