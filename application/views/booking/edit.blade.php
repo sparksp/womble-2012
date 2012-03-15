@@ -41,8 +41,8 @@
 @endif
 				</th>
 				<td class="control-group{{$errors->has("attendee.$i.name")?' error':''}}">{{Form::text("attendee[$i][name]", Input::get("attendee.$i.name", $attendees[$i]->name))}}</td>
-				<td class="control-group{{$errors->has("attendee.$i.saturday")?' error':''}}">{{Form::select("attendee[$i][saturday]", $activities, Input::get("attendee.$i.saturday", $attendees[$i]->saturday))}}</td>
-				<td class="control-group{{$errors->has("attendee.$i.sunday")?' error':''}}">{{Form::select("attendee[$i][sunday]", $activities, Input::get("attendee.$i.sunday", $attendees[$i]->sunday))}}</td>
+				<td class="control-group{{$errors->has("attendee.$i.saturday")?' error':''}}">{{Form::select("attendee[$i][saturday]", $saturday, Input::get("attendee.$i.saturday", $attendees[$i]->saturday))}}</td>
+				<td class="control-group{{$errors->has("attendee.$i.sunday")?' error':''}}">{{Form::select("attendee[$i][sunday]", $sunday, Input::get("attendee.$i.sunday", $attendees[$i]->sunday))}}</td>
 				<td class="control-group{{$errors->has("attendee.$i.extra")?' error':''}}">{{Form::text("attendee[$i][extra]", Input::get("attendee.$i.extra", $attendees[$i]->extra), array('class' => 'special'))}}</td>
 			</tr>
 		{{$errors->first("attendee.$i", '<tr><td></td><td colspan="4">:message</td></tr>');}}

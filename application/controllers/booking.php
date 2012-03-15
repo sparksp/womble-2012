@@ -48,12 +48,18 @@ class Booking_Controller extends Controller
 			$attendees[] = new Attendee();
 		}
 
+		$saturday = $this->activities;
+		$sunday   = $this->activities;
+
+		unset($sunday['biking']); // Biking is fully booked on Sunday!
+
 		return View::make('master')
 			->with('title', 'Book Now!')
 			->nest('content', 'booking.edit', array(
 				'group' => $group,
 				'attendees' => $attendees,
-				'activities' => $this->activities,
+				'saturday' => $saturday,
+				'sunday'   => $sunday,
 			));
 	}
 
