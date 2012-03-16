@@ -20,7 +20,9 @@ class Attendee extends Eloquent {
 	 * @var array
 	 */
 	public static $activities = array(
-		'canoeing', 'caving', 'climbing', 'biking', 'walking',
+		'canoeing', 'caving', 'climbing', 'walking',
+		// fully booked:
+		// 'biking',
 	);
 
 	/**

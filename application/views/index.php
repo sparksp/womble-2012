@@ -41,7 +41,7 @@
 	<li><?php echo HTML::link('activities/canoeing', 'Canoeing'); ?> (12 places)</li>
 	<li><?php echo HTML::link('activities/caving', 'Caving'); ?> (15 places)</li>
 	<li><?php echo HTML::link('activities/climbing', 'Climbing'); ?> (12 places)</li>
-	<li><?php echo HTML::link('activities/biking', 'Mountain Biking'); ?> (6 places)</li>
+	<li><?php echo HTML::link('activities/biking', 'Mountain Biking'); ?> <del>(6 places)</del></li>
 	<li><?php echo HTML::link('activities/walking', 'Walking'); ?> (12 places)</li>
 </ul>
 

@@ -21,7 +21,7 @@ class Booking_Controller extends Controller
 		'canoeing' => 'Canoeing',
 		'caving' => 'Caving',
 		'climbing' => 'Climbing',
-		'biking' => 'Mountain Biking',
+		// 'biking' => 'Mountain Biking', // Fully booked!
 		'walking' => 'Walking',
 	);
 
@@ -50,8 +50,6 @@ class Booking_Controller extends Controller
 
 		$saturday = $this->activities;
 		$sunday   = $this->activities;
-
-		unset($sunday['biking']); // Biking is fully booked on Sunday!
 
 		return View::make('master')
 			->with('title', 'Book Now!')
