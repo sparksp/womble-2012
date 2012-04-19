@@ -50,6 +50,7 @@ class Booking_Controller extends Controller
 
 		$saturday = $this->activities;
 		$sunday   = $this->activities;
+		unset($sunday['climbing']); // Fully booked
 
 		return View::make('master')
 			->with('title', 'Book Now!')
