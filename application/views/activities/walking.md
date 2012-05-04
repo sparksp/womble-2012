@@ -1,5 +1,5 @@
-Walking
-=======
+Walking & Scrambling
+====================
 
 ![Walking](/img/walking.png)
 
