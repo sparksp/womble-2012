@@ -40,6 +40,13 @@ class Booking_Controller extends Controller
 	 */
 	public function get_new()
 	{
+		if (date('Y-m-d') > '2012-05-18')
+		{
+			return View::make('master')
+				->with('title', 'Bookings Closed')
+				->nest('content', 'booking.closed');
+		}
+
 		$group = new Group();
 
 		$attendees = array();

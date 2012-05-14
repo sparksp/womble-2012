@@ -1,6 +1,8 @@
 <article>
 	<h1>Book Now!</h1>
 
+	<p>Bookings close on <strong>Friday 18th May</strong> 2012!</p>
+
 @if ($group->id)
 	{{Form::open(URL::to('booking/'.$group->id), 'PUT', array('class' => Form::TYPE_HORIZONTAL.' booking'))}}
 	{{Form::hidden('id', $group->id)}}

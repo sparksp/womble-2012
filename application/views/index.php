@@ -67,6 +67,8 @@
 
 <p>You need to pay a £5 non-refundable deposit now and then the remaining £30 by 1<sup>st</sup> June.  Cheques payable to "Leicestershire Scout Council".  So complete the booking form and press <?php echo HTML::link('booking/new', 'Book Now') ?>, you’ll then be contacted with how much you owe us.</p>
 
+<p>It's your last chance to get a place before bookings close on <strong>Friday 18th May</strong> 2012!</p>
+
 <h2>The small print <small>and a few life lessons</small></h2>
 
 <p>No one leaves until it’s tidy.  Your camping area must be kept clean and rubbish free at all times.  We are not paid to run this event.</p>

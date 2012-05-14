@@ -55,6 +55,8 @@ How do I get a place?
 
 You need to pay a £5 non-refundable deposit now and then the remaining £30 by 1<sup>st</sup> June.  Cheques payable to "Leicestershire Scout Council".  So complete the booking form and press [**Book Now**](/booking/new), you’ll then be contacted with how much you owe us.
 
+It's your last chance to get a place before bookings close on **Friday 18th May** 2012!
+
 The small print <small>and a few life lessons</small>
 -----------------------------------------------------
 
